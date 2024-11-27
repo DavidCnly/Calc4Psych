@@ -12,5 +12,4 @@ overall_input = st.text_input("Please input the percentage received overall.")
 if st.button("Calculate Grade!"):
     result = grade_calc(float(fyp_input), float(overall_input))
     st.write(f"The percentage received in the 40 non-FYP credits was **{result}**!")
-    if 69 <= result < 70:
-        st.write("Hehe. 69. Nice.")
+
